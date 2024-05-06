@@ -7,4 +7,6 @@ const PORT = process.env.PORT || 3000;
 app.use("/", router);
 
 // Escuchar el puerto
-app.listen(PORT, () => console.log(`Listening on port http://localhost:${PORT}`));
+app.listen(PORT, () =>
+  console.log(`Listening on port http://localhost:${PORT}`)
+);
